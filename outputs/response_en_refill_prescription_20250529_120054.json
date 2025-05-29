@@ -1,0 +1,8 @@
+{
+  "transcript": " I need to refill my prescription.",
+  "translation": "I need to refill my prescription.",
+  "language": "English",
+  "intent": "\"prescription_refill\"",
+  "condidence": 0.471,
+  "response": "Okay, I can help you with that. To refill your prescription, could you please provide your name and date of birth?\n"
+}

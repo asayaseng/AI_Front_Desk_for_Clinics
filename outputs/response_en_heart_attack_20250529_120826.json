@@ -1,0 +1,8 @@
+{
+  "transcript": " I think I am having a heart attack.",
+  "translation": "I think I am having a heart attack.",
+  "language": "English",
+  "intent": "\"medical_emergency\"",
+  "condidence": 0.3,
+  "response": "I understand you think you might be having a heart attack. Please tell me your current location, and I will call emergency services to assist you immediately.\n"
+}

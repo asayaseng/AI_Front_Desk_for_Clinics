@@ -1,0 +1,7 @@
+{
+  "transcript": " Hola, quiero saber si me seguro cubre limpiezas dentales.",
+  "language": "Spanish",
+  "intent": "general inquiry",
+  "condidence": 0.5,
+  "response": "Hola! Para verificar si su seguro cubre limpiezas dentales, ¿podría proporcionarme el nombre de su seguro y su número de póliza? Con esta información, puedo verificar su cobertura.\n"
+}

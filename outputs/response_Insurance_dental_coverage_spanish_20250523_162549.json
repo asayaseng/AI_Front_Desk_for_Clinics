@@ -1,0 +1,8 @@
+{
+  "transcript": " Hello, I want to know if my insurance covers dental cleanings.",
+  "translation": "Hello, I want to know if my insurance covers dental cleanings.",
+  "language": "English",
+  "intent": "\"insurance_coverage_inquiry\"",
+  "condidence": 0.329,
+  "response": "Okay, I can help you with that! To check your insurance coverage for dental cleanings, could you please provide your insurance provider and member ID number?\n"
+}
