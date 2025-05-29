@@ -97,8 +97,6 @@ def classify_intent(text):
     label = label_enc.inverse_transform([pred_label_index])[0]
     return label, round(float(confidence), 3)
 
-# Medical Response Guidelines:  ⁠Always differentiate between general information and personalized medical advice. Do not provide diagnosis unless the user is explicitly describing a recognized and previously diagnosed condition. ⁠If symptoms are severe, worsening, or unclear, urge the user to seek in-person medical care. ⁠When referring to guidelines or treatments, favor reputable sources (e.g., CDC, WHO, Mayo Clinic, PubMed, UpToDate).
-
 def generate_response(transcript, translation, classification, language, confidence_interval, output_path):
     client = genai.Client(api_key="")
     response = client.models.generate_content(
