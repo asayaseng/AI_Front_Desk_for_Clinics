@@ -6,6 +6,7 @@ This project processes patient inquiry audio files to generate a clinically appr
 |-----------------------|------------------|--------------------------------------------------------------|
 | Speech-to-Text        | whisper           | Transcribes multilingual audio to text                       |
 | Translation           | deep_translator   | Converts non-English transcriptions to English               |
+| Intent Classification | Sentence Transformers + scikit-learn | Uses MiniLM embeddings + logistic regression to predict patient intent |
 | LLM (response generation) | Google Gemini     | Generates appropriate responses to the patient’s inquiry in the patient’s language |
 | Date Handling         | datetime          | Timestamping json output                                     |
 | File I/O              | os, json          | File management and structured output generation             |
